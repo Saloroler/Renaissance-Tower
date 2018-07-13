@@ -1,0 +1,127 @@
+/*header*/
+.name-logo {
+    margin-top: 20px;
+    padding: 15px 0 15px 0;
+}
+.name-logo h1 {
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.name-logo h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+.name-logo i{
+    font-size: 50px;
+    color: lightslategrey;
+
+}
+.content-logo{
+    margin-left: 3%;
+}
+.content-logo h1{
+    margin-left: 3%;
+}
+
+body{
+     font-family: "Arial Unicode MS";
+ }
+/*body map*/
+.tower-place {
+
+    background-color: ghostwhite;
+}
+#map {
+    height: 500px;  /* The height is 400 pixels */
+    width: 500px;  /* The width is the width of the web page */
+}
+/*PROPERTY details*/
+.details {
+    background-color: ghostwhite;
+}
+.propcl{
+    font-size: 20px;
+}
+
+.property {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    color: lightslategrey;
+
+}
+.details select{
+    border: none;
+    background-color: ghostwhite;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.property h6 {
+    font-size: 20px;
+}
+.properties span {
+    margin-left: 20%;
+}
+.details-table table{
+    width:100%
+}
+.tab-2 {
+    margin-right: 10%;
+}
+.tab-1{
+    margin-right: 15%;
+
+}
+.details-table .prop{
+    color: lightslategrey;
+    font-weight: bold;
+    font-size: 20px;
+}
+.descriptions {
+    font-size: 20px;
+    padding: 15px;
+
+}
+.desc{
+    font-weight: bold;
+    color: lightslategrey;
+}
+
+
+/*availabilities*/
+
+.spans i {
+    font-size: 30px;
+    color: lightslategrey;
+}
+.logospan {
+    color: lightslategrey;
+    font-size: 20px;
+}
+.logonext {
+    color: grey;
+    float: right;
+}
+/*table availabilities*/
+.top-line{
+    background-color: ghostwhite;
+    color: lightslategrey;
+
+}
+.main-available{
+    font-size: 15px;
+}
+
+.availabilities select{
+    border: none;
+    background-color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
