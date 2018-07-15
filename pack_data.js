@@ -2,7 +2,7 @@ let properties = {
     "name": "Renaissance Tower",
     "address":"1201 Elm Street, Dallas, TX 75251",
     "floors": 56,
-    "totalBuildingArea": 170000,
+    "totalBuildingArea": 1700000,
     "tenancy":"Lorem ipsum",
     "tenant": 59,
     "website": "www.renaissancetower.net",
@@ -27,14 +27,10 @@ let optionsProp = {
 let arr = Object.keys(properties);
 
 for (let i = 0; i < arr.length; i++) {
-    // if (type of arr[i] === "object") {
-    //     let somear = document.getElementsByClassName('propertyType')
-    //     for (let j = 0; j < somear.length; j++) {
-    //         somear[j].innerHTML = properties[arr[i][j]];
-    //     }
-    // }
-if(arr[i] === "arr.totalBuildingArea"){
-    format(arr.totalBuildingArea)
+    //number format
+if(typeof properties[arr[i]] === "number" && properties[arr[i]] > 10000){
+ document.getElementById(arr[i]).innerHTML = format(properties[arr[i]]);
+ continue;
 }
     document.getElementById(arr[i]).innerHTML = properties[arr[i]];
 }
